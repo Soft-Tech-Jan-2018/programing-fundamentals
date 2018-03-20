@@ -1,4 +1,5 @@
-﻿using System;
+//Confirmed from <igrilkul>
+using System;
 namespace Debit
 {
     class Program
