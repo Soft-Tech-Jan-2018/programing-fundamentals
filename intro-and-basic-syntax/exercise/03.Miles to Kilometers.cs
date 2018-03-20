@@ -7,9 +7,9 @@ namespace Debit
         static void Main(String[] Args)
         {
 			//We get the miles from the console input
-            double a = double.Parse(Console.ReadLine());
+            double p = double.Parse(Console.ReadLine());
             //We convert the miles into kilometers and print the outcome
-            Console.WriteLine($"{a * 1.60934:F2}");
+            Console.WriteLine($"{p * 1.60934:F2}");
         }
     }
 }

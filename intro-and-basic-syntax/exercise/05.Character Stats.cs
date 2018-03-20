@@ -7,7 +7,7 @@ namespace Debit
         static void Main(String[] Args)
         {
             //We get the character name and stats via console input in the next 5 lines
-            string a = Console.ReadLine();
+            string name = Console.ReadLine();
             int curHP = int.Parse(Console.ReadLine()); 
             int maxHP = int.Parse(Console.ReadLine());
             int curMP = int.Parse(Console.ReadLine());
@@ -20,7 +20,7 @@ namespace Debit
 
 
             //We print the character's name and stats
-            Console.WriteLine($"Name: {a}\nHealth: |{hp}{hpd}|\nEnergy: |{mp}{mpd}|");
+            Console.WriteLine($"Name: {name}\nHealth: |{hp}{hpd}|\nEnergy: |{mp}{mpd}|");
         }
     }
 }
